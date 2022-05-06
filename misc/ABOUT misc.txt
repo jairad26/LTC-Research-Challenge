@@ -1,0 +1,21 @@
+=== General Information ===
+Miscellaneous files
+
+=== misc File Descriptions === 
+
+Average Offset Calc.ipynb					graph for average departure offset for each of the 4 routes split in the different years. Average departure offset is calculated for each route and year and then organized in a bar graph
+DataeTime.ipynb							tests to sort, edit, and create datetime columns; used to edit original data to allscripts, manual adjustments in Excel were easier for some routes data with LEFT() and RIGHT() functions
+DU Actual Run Time Analysis Excluding End Stops.ipynb	branch of "DU Actual Run Time Analysis.ipynb" (below); same except excludes end stops because of data collection error at end of route mentioned by Foothill Transit, see Google Drive 
+										notes file "Foothill Transit Meeting - Speed Data	9.16.21"
+DU Actual Run Time Analysis.ipynb				branch of older versions of 2019 analysis files used to test different linear regression algorithms on 280 data, includes correlation graphs for arrival time and predicted arrival time
+poster_plots.ipynb						miscellaneous graphs for older version of IEEE conference paper figures; includes accuracy of different linear regression models, accuracy of models as more features are 
+										considered, RMSE for different algorithms, average departure offset by route
+runscripts.ipynb							miscellaneous analysis scripts for silver streak data analysis, includes adding prev departure offset, finding unique bus stop ids, etc.
+sample.ipynb							testing 280 dataset editing, graph for 280 percentage error of variance over time
+sum_arrival_time_stops.ipynb					graphs comparing route 280 actual run time vs scheduled run time at various stops
+sum_dwell_time_stops.ipynb					graphs dwell time route 280 at various stops
+
+
+
+
+Last updated: 5/5/22	Daniel Uyematsu

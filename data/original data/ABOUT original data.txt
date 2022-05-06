@@ -1,0 +1,10 @@
+=== Dataset Information ===
+The data folder contains all of the original and modified datasets that were used. Routes 707 (aka Silver Streak), 187, and 188 have data for 2019, 2020, and 2021. Route 280 data 
+	was received from Foothill transit first and is only from the years 2019 and 2020. 280 2021 data was not available. 
+
+The original datasets needed to be modified to be readible (chronological order, stops of same trip grouped together, etc.). Original datasets were sometimes in reverse order or 
+	were split into different Excel sheets by month. Modified datasets were created by editing the original datasets in Excel or with a python script, whichever was easiest. 
+
+Silver Streak xlsx files and csv are the same, just saved as different file type
+
+Last updated: 5/5/22	Daniel Uyematsu
